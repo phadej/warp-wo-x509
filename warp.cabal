@@ -55,7 +55,6 @@ Library
                    , vault                     >= 0.3
                    , wai                       >= 3.2      && < 3.3
                    , word8
-                   , x509
                    , unliftio
   if impl(ghc < 8)
       Build-Depends: semigroups
